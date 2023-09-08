@@ -1,2 +1,7 @@
-#!/bin/bash
-gcc -S masm=intel $CFILE
+gcc -S -masm=intel -o output.s -xc - <<EOF
+#include <stdio.h>
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+EOF
