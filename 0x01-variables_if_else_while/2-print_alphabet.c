@@ -12,7 +12,7 @@ int main(void)
 
 	for (j = 0; j < 26; j++)
 	{
-		putchar(alpj[i]);
+		putchar(alpj[j]);
 	}
 	putchar('\n');
 	return (0);
