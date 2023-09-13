@@ -15,13 +15,13 @@
 */
 	int main(void)
 	{
-		int i, sum = 0;
+		int j, sum = 0;
 
 
-		for (i = 0; i < 1024; i++)
+		for (j = 0; j < 1024; j++)
 		{
-			if ((i % 3) == 0 || (i % 5) == 0)
-				sum += i;
+			if ((j % 3) == 0 || (j % 5) == 0)
+				sum += j;
 		}
 
 
